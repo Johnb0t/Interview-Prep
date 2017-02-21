@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blah</title>
+</head>
+<body>
+<script type="text/javascript">
+	function greatThanThree(numOne, numTwo) {
+	if ((numOne > 3) && (numTwo > 3)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function aOrB(letter) {
+	if((letter == 'a') || (letter == 'b')) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function greatThanTwo(num) {
+	if (num == 2){
+		return true;
+	} else {
+		return false;
+	} 
+}
+
+function printEvenBetween(numOne, numTwo) {
+	var numArray = [];
+	for (var i = numOne + 1; i < numTwo; i++) {
+		if((i % 2) == 0) {
+			numArray.push(i);
+		}
+	}
+	return numArray;
+}
+
+function printBetween(numOne, numTwo) {
+	var numArray = [];
+	for (var i = numOne + 1; i < numTwo; i++) {
+		numArray.push(i);
+	}
+	return numArray;
+}
+</script>
+
+</body>
+</html>
